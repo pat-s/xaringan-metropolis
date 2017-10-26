@@ -47,7 +47,7 @@ class: inverse, center, middle
 
 ---
 
-# Orange brake lines
+# Orange break lines
 
 If you want the orange brake lines in the title slide and for the slides with class `inverse`, you need to manually insert them using
 
@@ -85,8 +85,10 @@ The same applies to the non-coding font by using e.g. `.font60[]`:
 .font60[
 xaringan is so powerful!
 ]
- 
-.font100[
+
+... or `.font150[]`
+
+.font150[
 xaringan is so powerful!
 ]
 
@@ -102,6 +104,6 @@ I've set the look of inline code highlighting similar to the one used at `Github
 
 # Differences to Metropolis Beamer
   
-* No support of incremental orange brake lines in brake slides 
+* No support of incremental orange break lines in break slides 
 
 * Style of slide numbering 
