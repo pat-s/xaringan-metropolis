@@ -1,6 +1,6 @@
 ---
 title: "xaringan"
-subtitle: "Metropolis theme <html><div style='float:left'></div><hr color='#EB811B' size=1px width=777px></html>"
+subtitle: "Metropolis theme <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
 author: "Your Name"
 date: "2099/12/12"
 output:
