@@ -5,7 +5,8 @@
 @import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
 
 body {
-  font-family: 'Fira Sans','Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;}
+  font-family: 'Fira Sans','Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+}
 
 .remark-code, .remark-inline-code {
   font-family: 'Fira Code', 'Lucida Console', Monaco, monospace;
@@ -99,3 +100,38 @@ body {
   font-size: 100%;
 }
 
+.font110 {
+  font-size: 110%;
+}
+
+.font120 {
+  font-size: 120%;
+}
+
+.font130 {
+  font-size: 130%;
+}
+
+.font140 {
+  font-size: 140%;
+}
+
+.font150 {
+  font-size: 150%;
+}
+
+.font160 {
+  font-size: 160%;
+}
+.font170 {
+  font-size: 170%;
+}
+.font180 {
+  font-size: 180%;
+}
+.font190 {
+  font-size: 190%;
+}
+.font200 {
+  font-size: 200%;
+}
