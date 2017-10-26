@@ -8,7 +8,7 @@ You can see an example of the default look of `xaringan` [here](http://slides.yi
 The theme of this repository is trying to be a copy of the [`metropolis`](https://github.com/matze/mtheme) theme for the Beamer class in LaTeX. 
 However, margins may not be correct and font sizes may not reflect the original theme. 
 Currently, the theme only supports 4:3 ratio.
-You can find the demo slides of the theme here.
+You can find the demo slides of the theme [here](https://pat-s.github.io/files/xaringan-metropolis.html#1).
 
 <img src="figs/example.png" style="width: 100%" />
 
