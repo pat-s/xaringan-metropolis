@@ -49,7 +49,7 @@ class: inverse, center, middle
 
 # Orange break lines
 
-If you want the orange brake lines in the title slide and for the slides with class `inverse`, you need to manually insert them using
+If you want the orange break lines in the title slide and for the slides with class `inverse`, you need to manually insert them using
 
 ```html
 <html>
@@ -87,7 +87,7 @@ xaringan is so powerful!
 ]
 
 ... or `.font150[]`
-
+ 
 .font150[
 xaringan is so powerful!
 ]
