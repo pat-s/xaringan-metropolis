@@ -10,7 +10,9 @@ However, margins may not be correct and font sizes may not reflect the original 
 Currently, the theme only supports 4:3 ratio.
 You can find the demo slides of the theme [here](https://pat-s.github.io/files/xaringan-metropolis.html#1).
 
-<img src="figs/example.png" style="width: 100%" />
+Title slide                |  Content slide
+:-------------------------:|:-------------------------:
+![](figs/example1.png)  |  ![](figs/example2.png)
 
 ## Installation
 
