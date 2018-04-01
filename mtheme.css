@@ -20,6 +20,11 @@ a, a > code {
   padding: 1em 2em 1em 2em
 }
 
+/* Removes colored bar from top of the slide resulting in a clear slide */
+.clear{
+  border-top: 0px solid #FAFAFA;
+}
+
 .title-slide .inverse .remark-slide-content {
   background-color: #FAFAFA;
 }

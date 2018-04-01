@@ -17,7 +17,6 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
- 
 # How to use it
 
 Put `mtheme.css` and `fonts_mtheme.css` in the YAML header of your xaringan presentation.     
@@ -107,3 +106,25 @@ I've set the look of inline code highlighting similar to the one used at `Github
 * No support of incremental orange break lines in break slides 
 
 * Style of slide numbering 
+
+---
+
+# Header 1
+
+## Header 2
+
+Header 2
+
+### Header 3
+
+Header 3
+
+#### Header 4
+
+Header 4
+
+---
+
+class: clear
+
+If you use `class: clear` for a slide, you can have a slide without the colored top. 
