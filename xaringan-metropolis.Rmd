@@ -3,9 +3,9 @@ title: "xaringan"
 subtitle: "Metropolis theme <html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
 author: "Your Name"
 date: "2099/12/12"
-output:
+output: 
   xaringan::moon_reader:
-    css: ["mtheme.css", "fonts_mtheme.css"]
+    css: [default, metropolis, metropolis-fonts]
     nature: 
       beforeInit: "macros.js"
       highlightStyle: github
@@ -19,23 +19,13 @@ options(htmltools.dir.version = FALSE)
 
 # How to use it
 
-Put `mtheme.css` and `fonts_mtheme.css` in the YAML header of your xaringan presentation.     
- 
-``` yaml
-xaringan::moon_reader:
-  lib_dir: libs
-  css: ["mtheme.css", "fonts_mtheme.css"]
+Specify `metropolis` and `metropolis-fonts` in the `css` argument of `moon_reader()`
+
+```yaml
+output: 
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
 ```
-
-You can also load it dynamically from the repository:  
-
-``` yaml
-xaringan::moon_reader:
-  lib_dir: libs
-  css: ["https://github.com/pat-s/xaringan-mtheme.css",
-        "https://github.com/pat-s/xaringan-fonts_mtheme.css"]
-```
-
 
 ---
 class: inverse, center, middle
