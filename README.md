@@ -24,21 +24,23 @@ remotes::install_github('yihui/xaringan')
 
 If you use RStudio, it is easy to get started from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`, and you will see an R Markdown example. Press the `Knit` button to compile it, or use the RStudio Addin `Infinite Moon Reader` to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded; make sure the Rmd document is on focus when you click the addin). Please see the [issue #2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.
 
-In the YAML header you need to insert the two css files of this repository:
+There are two ways to use this theme.
 
-``` yaml
-xaringan::moon_reader:
-  lib_dir: libs
-  css: ["mtheme.css", "fonts_mtheme.css"]
+1. Via the built-in theme option of `xaringan`:
+
+```yaml
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
 ```
 
-You can also load it dynamically from the repository:  
+2. Directly from this repository:  
 
 ``` yaml
 xaringan::moon_reader:
   lib_dir: libs
-  css: ["https://github.com/pat-s/xaringan-mtheme.css",
-        "https://github.com/pat-s/xaringan-fonts_mtheme.css"]
+  css: ["https://raw.githubusercontent.com/pat-s/xaringan-metropolis/master/mtheme.css",
+        "https://raw.githubusercontent.com/pat-s/xaringan-metropolis/master/fonts_mtheme.css"]
 ```
 
 ## Additional tweaks
