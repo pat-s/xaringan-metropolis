@@ -1,11 +1,11 @@
 ---
 title: "xaringan"
-subtitle: "Metropolis theme <html><hr color='#EB811B' size=1px, style='margin:1em 15px 0 15px'></html>"
+subtitle: "Metropolis theme"
 author: "Your Name"
 date: "2099/12/12"
 output: 
   xaringan::moon_reader:
-    css: [default, metropolis, metropolis-fonts]
+    css: [default, mtheme.css, fonts_mtheme.css]
     nature: 
       beforeInit: "macros.js"
       highlightStyle: github
@@ -28,25 +28,29 @@ output:
 ```
 
 ---
-class: inverse, center, middle
+class: inverse, mline, center, middle
 
 # Get Started
-
-<html><hr color='#EB811B' size=1px, style='margin:1em 15px 0 15px'></html>
 
 ---
 
 # Orange break lines
 
-If you want the orange break lines in the title slide and for the slides with class `inverse`, you need to manually insert them using
+An orange break line is automatically added for you under the subtitle in the title slide. If you want an orange break line in a slide with class `inverse`, you need to add the class `mline` too. E.g.,
 
-```html
-<html>
-  <hr color='#EB811B' size=1px, style='margin:1em 15px 0 15px'>
-</html>
+```yaml
+class: inverse, mline, center, middle
 ```
 
-Simply put this code directly in the `title` field of the YAML header and in the body of an `inverse` slide class. 
+You can also manually insert an orange break line anywhere with
+
+```html
+<hr>
+```
+
+Simply put this code directly in the `title` field of the YAML header or in the body of any slide. E.g.,
+
+<hr>
 
 ---
 
