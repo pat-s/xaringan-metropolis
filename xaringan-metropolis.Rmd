@@ -5,7 +5,10 @@ author: "Your Name"
 date: "2099/12/12"
 output: 
   xaringan::moon_reader:
-    css: [default, mtheme.css, fonts_mtheme.css]
+    css:
+      - default
+      - mtheme.css
+      - fonts_mtheme.css
     nature: 
       beforeInit: "macros.js"
       highlightStyle: github
