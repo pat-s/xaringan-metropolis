@@ -1,3 +1,5 @@
+# MIGRATED to https://codefloe.com/pat-s/xaringan-metropolis
+
 # xaringan
 
 This is a theme for the R package [`xaringan`](https://github.com/yihui/xaringan) which itself relies on [`remark.js`](https://remarkjs.com/#1) to create a markdown based presentation. 
